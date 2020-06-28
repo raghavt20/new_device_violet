@@ -218,5 +218,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/violet \
+    vendor/xiaomi/violet \
+
 # Inherit vendor
 $(call inherit-product, vendor/xiaomi/violet/violet-vendor.mk)
