@@ -20,6 +20,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 # Assert
 TARGET_OTA_ASSERT_DEVICE := violet
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := sm6150
+TARGET_NO_BOOTLOADER := true
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/android.hardware.atrace@1.0-service.xml
