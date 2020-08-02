@@ -29,6 +29,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbthost_if \
+    libldacBT_dec \
+    libbt-vendor \
+    javax.btobex \
+    libbluetooth_qti \
+    libbt-hidlclient
+
 # Radio 
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
