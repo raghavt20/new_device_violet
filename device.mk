@@ -51,6 +51,16 @@ PRODUCT_PACKAGES += \
     setup_fs \
     make_ext4fs
 
+# VDNK
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti \
+    libqti_vndfwk_detect \
+    libvndfwk_detect_jni.qti.vendor \
+    libqti_vndfwk_detect.vendor \
+    liboemaids_system \
+    liboemaids_vendor \
+    vndk-sp
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
