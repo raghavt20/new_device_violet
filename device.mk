@@ -7,8 +7,13 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+
+#LLVM for RenderScript
+#use qcom LLVM
+$(call inherit-product-if-exists, external/llvm/llvm-select.mk)
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
