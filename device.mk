@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     libext \
     iptables
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0-java
+
 # VDNK
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
