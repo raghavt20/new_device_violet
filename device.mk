@@ -51,6 +51,17 @@ PRODUCT_PACKAGES += \
     setup_fs \
     make_ext4fs
 
+# IP Route 2
+PRODUCT_PACKAGES += \
+    ip \
+    libiprouteutil
+
+# IPTables
+PRODUCT_PACKAGES += \
+    libiptc \
+    libext \
+    iptables
+
 # VDNK
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
