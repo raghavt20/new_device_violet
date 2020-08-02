@@ -177,9 +177,6 @@
      <integer name="config_brightness_ramp_rate_slow">3946</integer>
      <integer name="config_longPressOnHomeBehavior">0</integer>
 
-    <!--  Maximum number of supported users -->
-     <integer name="config_multiuserMaximumUsers">1</integer>
-
     <!-- Default value for led color when battery is fully charged -->
      <integer name="config_notificationsBatteryFullARGB">0xFF00FF00</integer>
 
@@ -200,11 +197,6 @@
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
      <integer name="config_screenBrightnessDim">16</integer>
-
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-     <integer name="config_screenBrightnessDoze">1</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
@@ -639,5 +631,8 @@
     <bool name="config_wifi_softap_acs_supported">true</bool>
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
+
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
 
 </resources>
