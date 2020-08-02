@@ -24,15 +24,15 @@
 
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
-     <bool name="config_allowAllRotations">false</bool>
+     <bool name="config_allowAllRotations">true</bool>
 
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
-     <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
+     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
 
     <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
-     <bool name="config_carrier_wfc_ims_available">false</bool>
+     <bool name="config_carrier_wfc_ims_available">true</bool>
 
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
      <bool name="config_displayBlanksAfterDoze">true</bool>
@@ -81,10 +81,10 @@
      <bool name="config_lidControlsSleep">true</bool>
 
     <!-- Should the pinner service pin the Camera application? -->
-     <bool name="config_pinnerCameraApp">false</bool>
+     <bool name="config_pinnerCameraApp">true</bool>
 
     <!-- Should the pinner service pin the Home application? -->
-     <bool name="config_pinnerHomeApp">false</bool>
+     <bool name="config_pinnerHomeApp">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
@@ -103,10 +103,10 @@
      <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
 
     <!-- Whether device supports double tap to wake -->
-     <bool name="config_supportDoubleTapWake">false</bool>
+     <bool name="config_supportDoubleTapWake">true</bool>
 
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
-     <bool name="config_supportSystemNavigationKeys">false</bool>
+     <bool name="config_supportSystemNavigationKeys">true</bool>
 
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
@@ -119,7 +119,7 @@
      <bool name="config_sustainedPerformanceModeSupported">false</bool>
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
-     <bool name="config_swipe_up_gesture_setting_available">false</bool>
+     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
     <!-- When true, the tethering upstream network follows the current default
          Internet network (except when the current default network is mobile,
