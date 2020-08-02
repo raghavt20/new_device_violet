@@ -14,6 +14,21 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml
+
+# Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml \
+    telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
